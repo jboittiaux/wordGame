@@ -1,0 +1,50 @@
+:root {
+  --background: #3a3c49;
+  --code-color: #f80;
+  --orange: #ff6300;
+  --red: #f33;
+  --blue: #306dff;
+  --green: #3f3;
+  --purple: #f3f;
+  --cyan: #1cf0f8;
+  --yellow: #ff3;
+}
+
+.wrapper {
+  background: var(--background);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startButton {
+  padding: 1.5rem;
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  border: 2px solid white;
+  background: transparent;
+  box-shadow: 0 0 5px var(--blue),
+    0 0 10px var(--blue),
+    0 0 20px var(--blue);
+
+  cursor: pointer;
+  outline: none;
+  outline: none;
+  color: white;
+}
+
+.timer {
+  font-family: Gugi;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: white;
+  text-shadow: 0 0 3px var(--cyan),
+    0 0 10px var(--cyan);
+}
